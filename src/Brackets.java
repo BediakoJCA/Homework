@@ -1,10 +1,8 @@
 public class Brackets {
-
-
     public static void main(String[] args) {
-        Brackets Pancakes = new Brackets();
+        Brackets Pancakes= new Brackets();
 
-    public void Brackets() {
+    public Brackets(){
             // Ingredients
             int eggs = 2;
             double flourCups = 1.5;
@@ -16,7 +14,6 @@ public class Brackets {
 
                 // Mixing the batter
                 System.out.println("Mixing the batter...");
-                String s = "You are missing some ingredients. Can't make pancakes.";
                 for (int i = 1; i <= 3; i++) {
                     System.out.println("Stirring " + i + " times...");
 
@@ -25,22 +22,26 @@ public class Brackets {
                     System.out.println("Heating the pan...");
                     System.out.println("Greasing the pan...");
 
-
                     // Cooking the pancakes
                     int numberOfPancakes = 6;
                     for (int j = 1; j <= numberOfPancakes; j++) {
                         System.out.println("Pouring pancake batter for pancake " + j);
                         System.out.println("Cooking pancake " + j);
                     }
+                }
 
                     // Serve
                     System.out.println("Pancakes are ready! Serve and enjoy!");
-
-
+                 else {
+                    System.out.println("You are missing some ingredients. Can't make pancakes.");
                 }
-                System.out.println();};
 
-            }
+
         }
-    }
 
+
+        Step 4)
+
+    }
+    }
+}
