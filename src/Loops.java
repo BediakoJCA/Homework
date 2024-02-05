@@ -14,21 +14,21 @@ public class Loops {
     public void countUp() {
         System.out.println();
         for (int y = 1; y < 6; y = y + 1) {
-            System.out.println();
+            System.out.println(y);
         }
     }
 
         public void countByThrees() {
             System.out.println();
             for (int y = 3; y < 16; y = y + 3) {
-                System.out.println();
+                System.out.print(y);
             }
         }
 
             public void countDown(){
                 System.out.println();
-                for (int y = 10; y >1; y = y -1){
-                    System.out.println();}
+                for (int y = 10; y >0; y = y -1){
+                    System.out.print(y + ", ");}
             }
 
 
